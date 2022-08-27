@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(235, 235, 235) !important;
+}
+.title{
+    margin-top: 25px;
+}
+.title span {
+    background-color:black;
+    color:white;
+    padding-left:7px;
+    padding-right:7px;
+}
+.blog{
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.blog img{
+width: 100%;
+height: 35vh;
+}
+.blog span{
+    color: gray !important;
+    font-weight:300 !important;
+}
+
+.blog a{
+text-decoration: none;
+color: black;
+} 
+.blog a span{
+    background-color:black;
+    color: white;
+    padding-left:7px;
+    padding-right:7px;
+}
+.blog .count{
+    border-radius: 20px;
+}
+.profile{
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.profile img{
+    width: 100%;
+height: 35vh;
+}
+.btn-outline-secondary{
+    border-radius: 0px !important;
+}
+.popular-posts{
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.title{
+    background-color:rgb(233, 233, 233);
+    padding: 15px;
+    font-weight: 500;
+}
+.content {
+  border-bottom: 1px solid rgb(203, 203, 203) !important;
+}
+.popular-posts img{
+    width: 20%;
+    padding:15px;
+}
+.popular-posts h6{
+    margin-top: 15px; 
+    position: relative;
+    top: 5px;
+    
+}
+
+.tags{
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.tags a:not(.selected){
+    text-decoration: none;
+    background-color:rgb(233, 233, 233);
+    color: rgb(64, 64, 64);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+ .selected{
+    color:white;
+    background-color: black;
+    font-size:20px;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+}
